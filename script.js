@@ -14,22 +14,22 @@ $(document).ready(function() {
   // For each column representing a data series, define its name and color
   var SERIES = [  
     {
-      column: 'nonlearner',
-      name: 'Non-Learners',
-      color: 'grey'
+      column: 'Men',
+      name: 'Men',
+      color: 'Red'
     },
     {
-      column: 'learner',
-      name: 'Learners',
+      column: 'Women',
+      name: 'Women',
       color: 'blue'
     }
   ];
 
   // x-axis label and label in tooltip
-  var X_AXIS = 'School Districts';
+  var X_AXIS = 'Gender';
 
   // y-axis label, label in tooltip
-  var Y_AXIS = 'Number of Enrolled Students';
+  var Y_AXIS = 'Appearances';
 
   // `true` to show the grid, `false` to hide
   var SHOW_GRID = true; 
