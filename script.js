@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  var TITLE = 'English Learners by Select School Districts in CT, 2018-19';
+  var TITLE = 'Appearances of Men vs Women in Marvel Comic Books';
 
   // `false` for vertical column chart, `true` for horizontal bar chart
   var HORIZONTAL = false;
